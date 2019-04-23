@@ -32,7 +32,7 @@ def main():
         print('Gallons must be greater than zero')
         exit(1)
   
-    elif not check_date( date ):
+    elif not date:
         print('Date must have month, day, and year specified ordered(yearmonthday): i.e. 190422')
         exit(1)
             
