@@ -32,7 +32,7 @@ def main():
         print('Gallons must be greater than zero')
         exit(1)
   
-    elif not date:
+    elif not check_date(date):
         print('Date must have month, day, and year specified ordered(yearmonthday): i.e. 190422')
         exit(1)
             
@@ -65,7 +65,8 @@ def calc_mpg( miles, gallons ):
     return miles/gallons
 
 def check_date( date ):
-    if len(date)!=6:
+    if len(date)!=6 and len(date) != 8:
+    
         return False
     try:
         datetime.datetime.strptime(date,'%y%m%d')
