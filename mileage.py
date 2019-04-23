@@ -66,15 +66,15 @@ def calc_mpg( miles, gallons ):
 
 def check_date( date ):
     if len(date)!=6 and len(date) != 8:
-    
         return False
     try:
-        datetime.datetime.strptime(date,'%y%m%d')
+        datetime.d atetime.strptime(date,'%y%m%d')
 #        print(datetime.datetime.strptime(date,'%y%m%d'))
         return True
     except:
         return False
-
+    if len(date) == 6 and len(date) == 8 :
+        return True
 
 
 def get_args():
