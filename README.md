@@ -4,9 +4,9 @@ respository
 
 ## Mile per gallon Calculator and Gas Budget
 
-Most people do not take the time to calculate the price it is to travel to and from work, since it takes up valuable time in the day. Here we have a program that does that for you, ```bash mileage.py ```. The only simple thing you have to do is remember your mileage spent and your gas input for that mileage.
+Most people do not take the time to calculate the price it is to travel to and from work, since it takes up valuable time in the day. Here we have a program that does that for you, ``` mileage.py ```. The only simple thing you have to do is remember your mileage spent and your gas input for that mileage.
 
-This program takes two positional arguments ```bash miles``` and ``` bash gallons```. It also takes one optional argument ```bash -d|--date```. All of these inputs are positive integers greater than zero. Any questions please contact Marissa Lopez Pier, email: mal1@email.arizona.edu .
+This program takes two positional arguments ``` miles``` and ``` gallons```. It also takes one optional argument ``` -d|--date```. All of these inputs are positive integers greater than zero. Any questions please contact Marissa Lopez Pier, email: mal1@email.arizona.edu .
 
 ## Expected Behavior
 
