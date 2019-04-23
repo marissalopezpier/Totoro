@@ -75,3 +75,6 @@ test.py::test_one PASSED                                                        
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Authors
+Marissa Pier mal1@email.arizona.edu
